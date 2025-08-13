@@ -16,7 +16,7 @@ const Area = ({ tweetContent, setTweetContent }) => {
                     setTweetContent(e.target.value)
                 }} 
                 value={tweetContent}
-                placeholder="Wpisz swoją wiadomość..."
+                placeholder="Write your message here..."
             />
             <p className="character-count">{tweetLength}/280</p>
         </div>
