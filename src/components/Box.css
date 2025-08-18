@@ -74,4 +74,16 @@
     font-family: monospace;
     font-size: 0.9rem;
     color: #2a2a2a;
+}
+
+.box-instructions {
+    color: #666666;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+    text-align: justify;
+    background-color: #f8f9fa;
+    padding: 1rem;
+    border-radius: 8px;
+    border-left: 4px solid #1DA1F2;
 } 
