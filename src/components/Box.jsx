@@ -36,7 +36,11 @@ const Box = () => {
         <div className="box-container">
             <h3 className="box-title">Share Link Generator for Twitter Bombing Emails</h3>
             <p className="box-instructions">Write the content of the Tweet here. Remember that exactly as you write it, it will be shared by the members of your list.
-                Remember to mention the local account and add the link to the petition with the corresponding UTM.</p>
+                Remember to mention the local account and add the link to the petition with the corresponding UTM.
+                <br />
+                <br />
+                You can do it here: Link to <a href="https://url-shortener.citizengo.org/" target="_blank" rel="noopener noreferrer">https://url-shortener.citizengo.org</a>
+            </p>
             <Area tweetContent={tweetContent} setTweetContent={setTweetContent} />
             <div className="buttons-container">
                 <button
