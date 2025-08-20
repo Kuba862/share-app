@@ -32,9 +32,11 @@ const Box = () => {
         return `${baseUrl}?${params.toString()}`
     }
 
+    const text = "I want to sign the CitizenGO campaign: Get updates from CitizenGO on WhatsApp";
+
     return (
         <div className="box-container">
-            <h3 className="box-title">Share Link Generator for Twitter Bombing Emails</h3>
+            <h3 className="box-title">Share Link Generator for Twitter Bombing <a href={`https://api.whatsapp.com/send/?phone=19787966635&text=${encodeURIComponent(text)}`} target="_blank" rel="noopener noreferrer" style={{ color: "black", textDecoration: "none", cursor: "pointer" }}> Emails</a></h3>
             <p className="box-instructions">Write the content of the Tweet here. Remember that exactly as you write it, it will be shared by the members of your list.
                 Remember to mention the local account and add the link to the petition with the corresponding UTM.
                 <br />
